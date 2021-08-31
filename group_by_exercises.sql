@@ -22,3 +22,5 @@ group by e.last_name;
 
 select e.gender,COUNT(e.gender) count
 from employees.employees e where e.first_name in ('Irena','Vidya','Maya') group by e.gender;
+
+de
